@@ -25,13 +25,23 @@
     ],
     "modules": [
         {
-            "name" : "blueprint-compiler",
-            "buildsystem" : "meson",
-            "sources" : [{
-                "type" : "git",
-                "url" : "https://gitlab.gnome.org/jwestman/blueprint-compiler.git",
-                "branch" : "main" 
-            }]
+            "name": "blueprint-compiler",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.6.0/blueprint-compiler-v0.6.0.tar.bz2",
+                    "sha256": "316309c1527fbc7670aa3c41a7227452d129eedcad944c468ccce76bce70da3f",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 279929,
+                        "url-template": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v$version/blueprint-compiler-v$version.tar.bz2"
+                    }
+                }
+            ],
+            "cleanup": [
+                "*"
+            ]
         },
         {
             "name": "Paper",

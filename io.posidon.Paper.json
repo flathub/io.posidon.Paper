@@ -31,7 +31,7 @@
                 {
                     "type": "archive",
                     "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.6.0/blueprint-compiler-v0.6.0.tar.bz2",
-                    "sha256": "316309c1527fbc7670aa3c41a7227452d129eedcad944c468ccce76bce70da3f",
+                    "sha256": "e8746dcbc66a002337614002ddf4ac075b5b0322eb7ec685f735ab37894ea5b9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 279929,

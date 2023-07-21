@@ -30,8 +30,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.6.0/blueprint-compiler-v0.6.0.tar.bz2",
-                    "sha256": "e8746dcbc66a002337614002ddf4ac075b5b0322eb7ec685f735ab37894ea5b9",
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.10.0/blueprint-compiler-v0.10.0.tar.bz2",
+                    "sha256": "9c3c6eecef9eb54ad43b9ef786697a9f99b21e35240e9ddc8541a2cbd9ea79ba",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 279929,
@@ -47,11 +47,13 @@
             "name": "Paper",
             "builddir": true,
             "buildsystem": "meson",
-            "sources": [{
-                "type": "git",
-                "url": "https://gitlab.com/posidon_software/paper",
-                "tag": "22.11"
-            }]
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.com/posidon_software/paper",
+                    "tag": "22.11"
+                }
+            ]
         }
     ]
 }
